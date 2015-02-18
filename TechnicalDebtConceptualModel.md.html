@@ -9,7 +9,16 @@
 <p>We are uncovering better ways of developing software by doing it and helping others do it. Through this work we have come to value:</p>
 </blockquote>
 <blockquote>
-<p><em>Individuals and interactions</em> over processes and tools <em>Working software</em> over comprehensive documentation <em>Customer collaboration</em> over contract negotiation <em>Responding to change</em> over following a plan</p>
+<p><em>Individuals and interactions</em> over processes and tools</p>
+</blockquote>
+<blockquote>
+<p><em>Working software</em> over comprehensive documentation</p>
+</blockquote>
+<blockquote>
+<p><em>Customer collaboration</em> over contract negotiation</p>
+</blockquote>
+<blockquote>
+<p><em>Responding to change</em> over following a plan</p>
 </blockquote>
 <blockquote>
 <p>That is, while there is value in the items on the right, we value the items on the left more.{Beck, 2001 #2428}</p>
@@ -19,3 +28,41 @@
 <p>Technical debt has been a central theme among researchers and practitioners in the last years as an alternative perspective for software development and maintenance decisions. It offers a real world metaphor which is naturally understandable by mose software stakeholders and serves as tool to evaluate the tradeoffs between proposed enhancements, corrective maintenance and technical/non-functional improvements. {dos Santos, 2013 #2426, p. 124}</p>
 </blockquote>
 <p>As we consider the application of agile development models to the process of data curation, the concept of technical debt may prove useful when attempting to identify the requirements for and progress towards enabling reuse of research data for communities of users and uses beyond those for which data were initially collected or created.</p>
+<h1 id="assumptions">Assumptions</h1>
+<p>The conceptual model developed here has the following assumptions embedded in it. It is envisioned that violations of these assumptions will tend to complicate the model, but wouldn't necessarily invalidate it.</p>
+<ol style="list-style-type: decimal">
+<li><p><em>Data products in use by the original community of users that created/collected those data are assumed to have no technical debt.</em> This assumption translates into a scenario where the effort required to make the data discoverable, understandable and usable to its creators has already been expended. A corollary to this is that there exists a group of initial users of a data product for whom those data are already serving some need.</p></li>
+<li><p><em>Enabling reuse of a data product by a new community of users and/or a use for which those data products were not created requires additional effort.</em> While the level of effort required for a specific community or use will vary, some level of effort must be expended.</p></li>
+<li><p><em>There is a minimum level of effort that must be expended before any defined reuse may take place.</em> Prior to the expenditure of this minimum effort reuse by a specified community for a defined purpose cannot take place.</p></li>
+<li><p><em>Some additional effort may accelerate or increase the use of a data product within a specified community for a given use.</em> This effort is above and beyond that required for initiation of use ((3) above), and may reach a point of diminishing returns in terms of use when compared to effort.</p></li>
+</ol>
+<h1 id="types-of-effort-that-are-considered">Types of <em>Effort</em> that are considered</h1>
+<p>When considering the reusability of data products, several key dimensions (and examples of how those dimensions translate into more specific requirements) related to those products may be translated into <em>effort</em> required to enable reuse:</p>
+<dl>
+<dt>Discoverability</dt>
+<dd>Metadata content that, when properly indexed and searched, enables members of a community of users to find the product and consider it for use
+</dd>
+<dd>Availability of searchable metadata in locations that are accessible to and used by the intended community of users
+</dd>
+<dd>The existence of search interfaces that the intended community of users understand and are capable of using
+</dd>
+<dd>Machine readability of metadata and accessibility of search interfaces for integration into other applications and services
+</dd>
+<dt>Understanding</dt>
+<dd>Metadata content that allows potential users to understand suitability for purpose in the context of their anticipated use
+</dd>
+<dd>Other documentation or training materials that enable potential users to gain sufficient understanding of specific data products to enable effective use
+</dd>
+<dt>Use</dt>
+<dd>Data products available in formats commonly used by the intended community and use
+</dd>
+<dd>Data services available that are consistent with those that are used by the intended community
+</dd>
+<dd>Data volume/size that is manageable by the intended community
+</dd>
+</dl>
+<h1 id="illustration-of-the-conceptual-model">Illustration of the conceptual model</h1>
+<div class="figure">
+<img src="images/TechnicalDebt.png" alt="Technical Debt Illustration" /><p class="caption">Technical Debt Illustration</p>
+</div>
+<h1 id="references-cited">References Cited</h1>
