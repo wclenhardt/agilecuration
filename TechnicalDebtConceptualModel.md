@@ -38,7 +38,7 @@ As we consider the application of agile development models to the process of dat
 
 The conceptual model developed here has the following assumptions embedded in it. It is envisioned that violations of these assumptions will tend to complicate the model, but wouldn't necessarily invalidate it. 
 
-1. *Data products in use by the original community of users that created/collected those data are assumed to have no technical debt.* This assumption translates into a scenario where the effort required to make the data discoverable, understandable and usable to its creators has already been expended. A corollary to this is that there exists a group of initial users of a data product for whom those data are already serving some need. 
+1. *Data products in use by the original community of users that created/collected those data are assumed to have no technical debt.* This assumption translates into a scenario where the effort required to make the data discoverable, understandable and usable to its creators has already been expended. A corollary to this is that there exists a group of initial users of a data product for whom those data are already serving some need. *It may be appropriate to relax this assumption as it relates to technical debt associated with future reuse of the initial data products of a research program*. 
 
 2. *Enabling reuse of a data product by a new community of users and/or a use for which those data products were not created requires additional effort.* While the level of effort required for a specific community or use will vary, some level of effort must be expended. 
 
@@ -56,6 +56,7 @@ Discoverability
 :    Availability of searchable metadata in locations that are accessible to and used by the intended community of users
 :    The existence of search interfaces that the intended community of users understand and are capable of using
 :    Machine readability of metadata and accessibility of search interfaces for integration into other applications and services
+:    Metadata content and search locations and interfaces may support both search (the location of data resources that are known to be relevant to a particular problem) and discovery (the [sometimes serendipitous] discovery of data that are of interest to a particular researcher or applied user). 
 
 Understanding
 :    Metadata content that allows potential users to understand suitability for purpose in the context of their anticipated use
@@ -68,7 +69,9 @@ Use
 
 # Illustration of the conceptual model
 
-![Technical Debt Illustration](images/TechnicalDebt.png)
+![Technical Debt Illustration - the *use metric* defined in the plot(s) will vary by use scenario, but may include: number of downloads, volume downloaded, number of individual users, number of service requests, number of dataset  citations, number of active API keys,  etc. ](images/TechnicalDebt.png)
+
+The context sensitivity of the definition of a "use metric" for a particular data product or collection of products suggests that the development of a strategy for developing a composite use metric that integrates multiple (appropriate) use metrics would be a necessary part of the depiction of the composite life of a particular dataset. 
 
 
 # References Cited
