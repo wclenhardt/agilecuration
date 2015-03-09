@@ -3,11 +3,18 @@
 University of New Mexico, College of University Libraries and Learning Sciences
 % February 17, 2015
 
+---
+author:
+- name: Karl Benedict
+  affiliation: University of New Mexico
+bibliography: references.bibtex
+...
+
 # Technical Debt - Integration into an agile curation conceptual model
 
 The concept of *debt* in software development was introduced in 1992 by Ward Cunningham  in the context of the adoption of object-oriented principles in the development of financial software. In his formulation
 
-> Shipping first time code is like going into debt. A little debt speeds development so long as it is paid back promptly with a rewrite. Objects make the cost of this transaction tolerable. The danger occurs when the debt is not repaid. Every minute spent on not-quite-right code counts as interest on that debt. {Cunningham, 1992 #2427, p. 30} 
+> Shipping first time code is like going into debt. A little debt speeds development so long as it is paid back promptly with a rewrite. Objects make the cost of this transaction tolerable. The danger occurs when the debt is not repaid. Every minute spent on not-quite-right code counts as interest on that debt. [@id_2427, p. 30]
 
 Cunningham focused on the development flexibility that is gained by accepting some degree of technical debt that is understood to require repayment some time in the future.
 
@@ -26,11 +33,11 @@ With the emergence of agile software development methods based upon the principl
 > *Responding to change* over following a plan
 
 > That is, while there is value in the items on
-> the right, we value the items on the left more.{Beck, 2001 #2428}
+> the right, we value the items on the left more. [@id_2428]
 
 The tradeoffs presented in the *Manifesto* provide opportunities to accrue technical debt throughout an agile software development process that has been recognized as a challenge that must be addressed when adopting agile methods. As noted by dos Santos et al.
 
-> Technical debt has been a central theme among researchers and practitioners in the last years as an alternative perspective for software development and maintenance decisions. It offers a real world metaphor which is naturally understandable by mose software stakeholders and serves as tool to evaluate the tradeoffs between proposed enhancements, corrective maintenance and technical/non-functional improvements. {dos Santos, 2013 #2426, p. 124}
+> Technical debt has been a central theme among researchers and practitioners in the last years as an alternative perspective for software development and maintenance decisions. It offers a real world metaphor which is naturally understandable by mose software stakeholders and serves as tool to evaluate the tradeoffs between proposed enhancements, corrective maintenance and technical/non-functional improvements.  [@id_2426, p. 124]
 
 As we consider the application of agile development models to the process of data curation, the concept of technical debt may prove useful when attempting to identify the requirements for and progress towards enabling reuse of research data for communities of users and uses beyond those for which data were initially collected or created. 
 
@@ -45,6 +52,8 @@ The conceptual model developed here has the following assumptions embedded in it
 3. *There is a minimum level of effort that must be expended before any defined reuse may take place.* Prior to the expenditure of this minimum effort reuse by a specified community for a defined purpose cannot take place. 
 
 4. *Some additional effort may accelerate or increase the use of a data product within a specified community for a given use.* This effort is above and beyond that required for initiation of use ((3) above), and may reach a point of diminishing returns in terms of use when compared to effort. 
+
+5. *Through the application of deliberate design strategies the incremental effort required to enable reuse in subsequent reuse scenarios may be reduced*. This assumption is founded upon the principle of design for reusability and support for open standards whenever possible, with the cumulative impact of investments for use by more uses and communities providing more existing capabilities that may be reused by new users. 
 
 
 # Types of *Effort* that are considered
@@ -67,6 +76,22 @@ Use
 :    Data services available that are consistent with those that are used by the intended community
 :    Data volume/size that is manageable by the intended community
 
+# Actors / Responsible Parties
+
+Given that different participants in the data curation process possess specific knowledge and skills it is necessary to identify the roles of different actors in the agile data curation process:
+
+Scientific Data Expert
+:   These experts have significant knowledge of the data that are going through the agile curation process. This knowledge may be based upon their role in creating the data or upon their obtained familiarity with the data through primary or secondary use and research. 
+
+Data Curation Expert
+:   These experts have expertise in the preparation of data products for long-term preservation, discovery, access and use by users beyond the initial researcher or research team that created them. This expertise includes knowledge of relevant documentation standards, data formats that enable effective preservation and reuse, and standards for data discovery and access.
+
+Reuse User
+:   The reuse user has expertise in the new research, application or other reuse scenario and is able to effectively participate in the identification of the needs, barriers and potential solutions for achieving reuse of a dataset in a new use scenario/community. 
+
+While this is not a comprehensive list of the participants in the process of agile data curation, it is a high-level categorization of the actors between whom responsibilities for enabling data reuse must be divided, without whom it cannot be accomplished.  
+
+
 # Illustration of the conceptual model
 
 ![Technical Debt Illustration - the *use metric* defined in the plot(s) will vary by use scenario, but may include: number of downloads, volume downloaded, number of individual users, number of service requests, number of dataset  citations, number of active API keys,  etc. ](images/TechnicalDebt.png)
@@ -75,3 +100,5 @@ The context sensitivity of the definition of a "use metric" for a particular dat
 
 
 # References Cited
+
+&nbsp;
