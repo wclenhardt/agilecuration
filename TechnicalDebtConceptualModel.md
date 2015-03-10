@@ -6,8 +6,8 @@ University of New Mexico, College of University Libraries and Learning Sciences
 ---
 author:
 - name: Karl Benedict
-  affiliation: University of New Mexico
-bibliography: references.bibtex
+  affiliation: University of New Mexico, College of University Libraries and Learning Sciences
+bibliography: ./reference/references.bibtex
 ...
 
 # Technical Debt - Integration into an agile curation conceptual model
