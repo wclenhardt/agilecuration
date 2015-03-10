@@ -1,7 +1,7 @@
 % Agile Data Curation - Technical Debt Conceptual Model
 % Karl Benedict\
 University of New Mexico, College of University Libraries and Learning Sciences
-% February 17, 2015
+% March 10, 2015
 
 ---
 author:
