@@ -50,7 +50,7 @@ BoF Results
 * Conversations started at GeoData 2014 and continued at the ESIP Federation Summer 2014 meeting
 * Poster presented at the 2014 AGU Fall meeting to broaden the dialog - [http://www.slideshare.net/JoshYoung8/ag-cu-11](http://www.slideshare.net/JoshYoung8/ag-cu-11)
 
-![AGU 2014 Poster](Agile_Curation_Poster.png)\ 
+![AGU 2014 Poster](images/Agile_Curation_Poster.png)\ 
 
 ### Why Agile? 
 
@@ -101,19 +101,19 @@ While agile development includes methods and practices, it also embodies a funda
 
 The evolving technical debt conceptual model can be found at: [https://github.com/karlbenedict/agilecuration](https://github.com/karlbenedict/agilecuration)
 
-![Technical Debt Illustration](../images/TechnicalDebt.png)
+![Technical Debt Illustration](images/TechnicalDebt.png)
 
 
 ## Examples
 
 ### Geographic Storage, Transformation and Retrieval Engine (GSToRE)
 
-![GSToRE Component Diagram - [http://gstore.unm.edu](http://gstore.unm.edu)](GstoreComponentDiagram.png)
+![GSToRE Component Diagram - [http://gstore.unm.edu](http://gstore.unm.edu)](images/GstoreComponentDiagram.png)
 
 
 ### Research Data Services at UNM {.RDS}
 
-![RDS Service Catalog - rds@unm.edu](researchLifecycle_ServicesCatalog.png)
+![RDS Service Catalog - rds@unm.edu](images/researchLifecycle_ServicesCatalog.png)
 
 ### NSIDC - Ruth Duerr
 
