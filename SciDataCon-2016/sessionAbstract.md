@@ -2,6 +2,14 @@
 
 Link to session [submission web page](http://www.scidatacon.org/2016/submit/)
 
+## Session Type - Mixed Paper Session
+
+Sessions explicitly seeking to have a mix of research and practice papers.  It may also be permissible to include poster presentations in such sessions.
+
+## Anticipated Contributors, Participants
+
+
+
 ## Themes and Scope
 
 [Link to online listing.](http://www.scidatacon.org/site/themes-scope/)
@@ -53,7 +61,7 @@ Data, Society, Ethics and Politics
 
 Addressing research into the broader dimensions of data and data driven research in relation to society.  This includes research into:
 
-* Open research data and Open public data;
+## Open research data and Open public data;
 
 Session Organizers:
 
@@ -61,7 +69,7 @@ Session Organizers:
 * W Christopher Lehnhardt (RENCI)
 * Joshua Young (NCAR)
 
-Initial organizing thoughts:
+## Initial organizing thoughts:
 
 * Conceptual overview based on continued evolution of ideas from paper/lit review
 * Community concepts of agile curation
@@ -69,4 +77,6 @@ Initial organizing thoughts:
   * Adaptive and product-driven (Denise)
 * Case studies as a vehicle for developing *design patterns*
 * Initial synthesis strategy and results from *design pattern* work. 
+
+## Abstract Text
 
